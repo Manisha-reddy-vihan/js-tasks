@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //comparison operator
+        //with different values
+        var a=20;
+        var b=30;
+        console.log(a+b)
+        console.log(a==b)
+        console.log(a===b)
+        console.log(a<=b)
+        console.log(a>=b)
+        console.log(a>b)
+        console.log(a<b)
+        console.log(a!=b)
+        console.log(a!==b)
+
+        console.log('..........')
+        //with same values
+        var c=30;
+        var d=30;
+        console.log(c+d) 
+       console.log(c==d)
+       console.log(c===d)
+       console.log(c<=d)
+       console.log(c>=d)
+       console.log(c<d)
+       console.log(c>d)
+       console.log(c!=d)
+       console.log(c!==d)
+
+       console.log('.............')
+       var num=40
+       var num="hi"
+       
+      console.log(num1==num2)
+      console.log(num1===num2)
+      console.log(num1<num2)
+      console.log(num1>num2)
+      console.log(num1<=num2)
+      console.log(num1>=num2)
+      console.log(num1!=num2)
+      console.log(num1!==num2)  
+      
+      //Ternory Operators
+
+        //Even and Odd Number
+        var number=prompt("Enter number")
+        var odd=(number%2==0)? "Even":"Odd"
+        console.log(odd);
+
+        //Weather Condition
+        var tem=prompt("Enter Temparature");
+        var weather=(tem<=20)?"weather Cold":(tem<=30)?"weather Normal":(tem<=40)?"weather Hot":"weather Very Hot";
+        console.log(weather)
+
+       //Grades Condition
+       var marks=prompt("Enter your marks")
+       var grade=(marks<35)?"Failed":(marks<51)?"D Grade":(marks<66)?"C Grade":(marks<76)?"B Grade":(marks<86)?"A Grade":"O Grade";
+       console.log(grade)
+
+       //Age
+       var age=prompt("Enter your age")
+       var your=(age<19)?"you are child":(age<26)?"you are teen":(age<45)?"you are adult":"you are senior";
+       console.log(your)
+         </script>
+    </body>
+    </html>
