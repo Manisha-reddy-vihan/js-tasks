@@ -18,9 +18,11 @@ fact=1
 for(i=5;i<=1;i--){
     console.log(i)
     fact*=i
+
+
+    
 }
 console.log(fact)
-
 
 console.log("multiplication table(1 to 5): ")
 
@@ -36,4 +38,3 @@ for(i=65;i<=90;i++){
     fact+=String.fromCharCode(i);
 }
 console.log(fact)
-
